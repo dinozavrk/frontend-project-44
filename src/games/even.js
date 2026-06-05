@@ -8,3 +8,5 @@ export default function getGameData() {
   const correctAnswer = isEven(number) ? 'yes' : 'no';
   return { question, correctAnswer };
 }
+
+

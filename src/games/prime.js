@@ -1,4 +1,4 @@
-const tgetRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 const isPrime = (num) => {
   if (num <= 1) return false;

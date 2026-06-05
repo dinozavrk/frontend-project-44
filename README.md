@@ -1,2 +1,28 @@
+# Brain Games
+
+## Описание
+
+**Brain Games** — это коллекция консольных математических мини-игр для тренировки мозга. Каждая игра предлагает серию заданий, требующих быстрого мышления и базовых математических навыков.
+
+## Игры в комплекте
+
+1. **Brain Even** (Чётность) — определите, чётное число или нет
+2. **Brain Calc** (Калькулятор) — вычислите результат арифметического выражения
+3. **Brain GCD** (НОД) — найдите наибольший общий делитель двух чисел
+4. **Brain Progression** (Прогрессия) — найдите пропущенное число в арифметической прогрессии
+5. **Brain Prime** (Простое число) — определите, является ли число простым
+
+## Требования
+
+- Node.js (последняя версия)
+
+## Установка
+
+```bash
+git clone <url-репозитория>
+cd brain-games
+make install
+sudo npm link
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/dinozavrk/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/dinozavrk/frontend-project-44/actions)

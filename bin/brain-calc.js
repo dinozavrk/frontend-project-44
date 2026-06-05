@@ -1,4 +1,5 @@
+
 import runGame from '../src/index.js';
 import getGameData from '../src/games/calc.js';
 
-runGame('Какой результат выражения?', getGameData);
+runGame('What is the result of the expression?', getGameData);

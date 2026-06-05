@@ -8,7 +8,7 @@ export default function runGame(gameDescription, getGameData) {
   console.log(`Hello, ${userName}!`);
   console.log(gameDescription);
 
-  for (let round = 0; round < ROUNDS_COUNT; round += 1) {
+  for (let i = 0; i < ROUNDS_COUNT; i += 1) {
     const { question, correctAnswer } = getGameData();
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');

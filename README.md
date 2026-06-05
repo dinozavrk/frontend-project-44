@@ -23,6 +23,3 @@ git clone <url-репозитория>
 cd brain-games
 make install
 sudo npm link
-
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/dinozavrk/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/dinozavrk/frontend-project-44/actions)
